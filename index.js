@@ -12,7 +12,7 @@ const key = '7d071fbe0ce859f38fc52421fe538ec8';
 fetch(url+key)
   .then(response => {
     if (!response.ok) {
-      throw new Error('Network response was not ok');
+      throw new Error('Network response was not ok ');
     }
     return response.json();
   })
